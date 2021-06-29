@@ -14,7 +14,6 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="70dp"
         android:layout_marginRight="25dp"
-        android:gravity="center"
         android:text="Play"
         android:textColor="#000000"
         android:textSize="30sp" />
@@ -26,8 +25,8 @@
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:gravity="center"
-        android:text="Start a new game. \n Four difficuilties are offered
-\n1.Easy\n2.Medium\n3.Hard\n4.Extreme\n Time taken to start a game depends on difficuilty "
+        android:text="Start a new game. \n Four difficulties  are offered
+\n1.Easy\n2.Medium\n3.Hard\n4.Extreme\n Time taken to start a game depends on difficulty "
         android:textAlignment="viewStart"
         android:textSize="15sp" />
 
@@ -36,9 +35,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="25dp"
-        android:gravity="center"
         android:text="Resume"
         android:textColor="#000000"
         android:textSize="30sp" />
@@ -59,9 +57,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="25dp"
-        android:gravity="center"
         android:text="Click"
         android:textColor="#000000"
         android:textSize="30sp" />
@@ -82,7 +79,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="120dp"
         android:layout_marginRight="25dp"
         android:gravity="center"
         android:text="This app is open source.\n Tap to open source code." />

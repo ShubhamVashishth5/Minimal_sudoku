@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sudoku Solver</string>
+
+    <string-array name="levels">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Extreme</item>
+    </string-array>
+
+</resources>

@@ -5,7 +5,7 @@ Utilizes Google's ML kit to recognise text in form an image and maps the sudoku 
 
 ![click](https://drive.google.com/file/d/1SS5ycXxUwmLJoAJlbWRXCv5WZtcKQWfo/view?usp=sharing)
 ![crop](https://drive.google.com/file/d/1VQEodAC7LT2Nlt7xiisLsWH6Sl9Qh1P_/view?usp=sharing)
-![processing](https://drive.google.com/file/d/1CNFe9vZpIR6mok0Z1JT56c_x1iDLzPu4/view?usp=sharing)
+![processing](https://i.imgur.com/pA73Skf.png)
 ![verify](https://drive.google.com/file/d/1uvQd1HW18AyCEP6RKPVj0ofs0CPU_qab/view?usp=sharing)
 ![solution](https://drive.google.com/file/d/1CNFe9vZpIR6mok0Z1JT56c_x1iDLzPu4/view?usp=sharing)
 

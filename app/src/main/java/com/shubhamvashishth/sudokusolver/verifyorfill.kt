@@ -5,7 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.Toast
 import com.google.android.material.badge.BadgeUtils
+import com.shubhamvashishth.sudokusolver.algo.check
+import com.shubhamvashishth.sudokusolver.algo.check2
 import com.shubhamvashishth.sudokusolver.algo.solveinjava
 import com.shubhamvashishth.sudokusolver.boardview.Cell
 import com.shubhamvashishth.sudokusolver.boardview.showboard
@@ -85,6 +88,17 @@ class verifyorfill : AppCompatActivity() {
 
 
             R.id.solve -> {
+
+                if(!check2())
+                {
+                    Toast.makeText(
+                        this,
+                        "Conflicting values, sudoku is not legal",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    return@OnClickListener
+                }
+
                 setstart()
                 var tosolve: solveinjava = solveinjava()
                 tosolve.getBoard(useClass.sugrid)
@@ -97,6 +111,16 @@ class verifyorfill : AppCompatActivity() {
             }
 
             R.id.play-> {
+
+                if(!check2())
+                {
+                    Toast.makeText(
+                        this,
+                        "Conflicting values, sudoku is not legal",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    return@OnClickListener
+                }
 
                 setstart()
                 useClass.equal(useClass.ugrid,useClass.sugrid)
